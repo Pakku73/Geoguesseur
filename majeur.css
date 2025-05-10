@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 177, 177);
+}
+
+.title{
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.viewer{
+    display: flex;
+    justify-content: center;
+}
+
+#map { 
+    height: 80vh; 
+    width: 100vh;
+}

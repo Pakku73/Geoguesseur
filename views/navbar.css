@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+} */
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(235, 234, 234);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Ajoute une transition d'animation */
+}
+
+.navbar a:hover {
+    background-color: #555; /* Change la couleur de fond au survol */
+    color: white;
+    transition: color 0.4s ease;
+}
+
+#quitter{
+    color: rgb(246, 79, 79);
+}

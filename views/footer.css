@@ -1,0 +1,67 @@
+/* FOOTER */
+
+/* Ajoute du style pour le footer */
+footer {
+    padding: 0;
+    color: white;
+}
+
+.footer-upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer-lower {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    p{
+        padding: 16px;
+    }
+
+    .legal a {
+        padding: 16px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.footersocial a,
+.footerLinks a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footersocial{
+    margin-right: 4vh;
+
+    a{
+        display: flex;
+        align-items: center;
+        /* vertical-align: middle;
+        margin-right: 5px; */
+    }
+
+    img {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+}
+
+.footerLinks {
+    text-align: left;
+
+    a{
+        padding: 7px;
+    }
+}
+
